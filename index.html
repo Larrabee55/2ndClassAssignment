@@ -39,7 +39,7 @@
                         if (jsonObj.book[i].id == document.getElementById("BookSel").value && document.getElementById("BookSel").value != 0) {
                             Title = Title + jsonObj.book[i].Title + "<br>";
                             Author = Author + jsonObj.book[i].Author + "<br>";
-                            extra = extra + jsonObj.book[i].Year + "<p>" + jsonObj.book[i].Description + "</p>";
+                            extra = extra + "<p>" + jsonObj.book[i].Description + "</p>";
                             var selection = i;
                             console.log(i);
                         }
