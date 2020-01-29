@@ -41,7 +41,7 @@
                             Author = Author + jsonObj.book[i].Author + "<br>";
                             extra = extra + "<p>" + jsonObj.book[i].desc + "</p>";
                             var selection = i;
-                            console.log(i);
+                            console.log(jsonObj.book[i].desc);
                         }
                     }
                     console.log(selection + "using my code");
@@ -93,7 +93,7 @@
                             Author = Author + jsonObj.book[i].Author + "<br>";
 
                             var selection = i;
-
+                            console.log(i)
                         }
                     }
                     console.log(selection + "Using my code");
