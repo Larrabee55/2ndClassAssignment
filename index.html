@@ -88,7 +88,13 @@
                     var Author = "";
 
                     for (var i = 0; i < jsonObj.book.length; i++) {
+                        if (jsonObj.book[i].Author.indexOf(document.getElementById("AuthorName").value) > -1 && document.getElementById("AuthorName").value != "") {
+                            Title = Title + jsonObj.book[i].Title + "<br>";
+                            Author = Author + jsonObj.book[i].Author + "<br>";
 
+                            var selection = i;
+
+                        }
                     }
                     console.log(selection + "Using my code");
                     document.getElementById("booklist").innerHTML = "";
