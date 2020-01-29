@@ -36,7 +36,13 @@
                     var Author = "";
                     var extra = "";
                     for (var i = 0; i < jsonObj.book.length; i++) {
-
+                        if (jsonObj.book[i].authorid == document.getElementById("BookSel").value && document.getElementById("BookSel").value != 0) {
+                            Title = Title + jsonObj.book[i].Title + "<br>";
+                            Author = Author + jsonObj.book[i].Author + "<br>";
+                            extra = extra + jsonObj.book[i].Year + "<p>" + jsonObj.book[i].Description + "</p>";
+                            var selection = i;
+                            console.log(i);
+                        }
                     }
                     console.log(selection + "using my code");
                     document.getElementById("booklist").innerHTML = extra;
