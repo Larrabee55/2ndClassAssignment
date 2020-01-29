@@ -51,7 +51,7 @@
       "Price": 12.00,
       "Forsale": false,
       "Source": "images/taylor-20000-leagues-under-the-sea.jpg",
-      "id": 3,
+      "id": 4,
       "desc": "Some stuff"
     },
     {
@@ -67,7 +67,7 @@
         "Best SciFi"
       ],
       "Source": "images/dhalgren.jpg",
-      "id": 4,
+      "id": 5,
       "desc": "Some stuff"
     },
     {
@@ -83,7 +83,7 @@
         "Best SciFi"
       ],
       "Source": "images/war.jpg",
-      "id": 5,
+      "id": 6,
       "desc": "Some stuff"
     },
     {
@@ -99,7 +99,7 @@
         "Best SciFi"
       ],
       "Source": "images/foundation.jpg",
-      "id": 6,
+      "id": 7,
       "desc": "Some stuff"
     },
     {
@@ -110,7 +110,7 @@
       "Price": 12.00,
       "Forsale": true,
       "Source": "images/stranger.jpg",
-      "id": 7,
+      "id": 8,
       "desc": "Some stuff"
     }
   ]
